@@ -75,7 +75,7 @@ It may take some time for mining to get started (on the order of a few minutes).
 If you'd like to try an EVM compatible blockchain that isn't so resource intensive, checkout [erisdb](https://github.com/eris-ltd/eris-db) ;)
 
 ```bash
-geth --datadir ~/.myethereum --rpc --mine --genesis ~/.myethereum/genesis.json --maxpeers 0 --etherbase $ADDR --verbosity 7
+geth --datadir ~/.myethereum --rpc --mine --genesis ~/.myethereum/genesis.json --maxpeers 0 --etherbase $ADDR --verbosity 7 --fakepow --nodiscover
 ```
 
 This will start a private ethereum chain on your machine. 
